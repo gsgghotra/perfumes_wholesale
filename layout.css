@@ -1,0 +1,502 @@
+/*Scent stylesheet */
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+body{
+	background-color:#ffffff;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Saira', sans-serif;
+	font-size:14px;
+}
+#container{
+width:1000px;
+margin:0 auto;
+}
+/* Header at the top */
+header{
+	width:100%;
+	float:left;
+	display:inline;
+	background-color:#ffffff ;
+	color:black;
+}
+header h1{
+	margin-left:0px;
+	display:inline;
+	float:left;
+}
+header h2{
+	margin-right:40px;
+	display:inline;
+	float:right;
+}
+nav{
+	width:100%;
+	border:1px solid black;
+	float:left;
+	display:inline;
+	background-color:#ffffff;
+}
+a{
+	text-decoration: none;
+}
+/* Menu buttons*/
+#nav_ul{
+	list-style-type:none;
+	margin:0px;
+	float:right;
+
+}
+.nav_li{
+	width:100px;
+	float:left;
+	text-align:center;
+	display:inline;
+}
+.nav_li:hover{
+	background:#cf537c;
+	color:black;
+
+}
+.nav_a{
+	text-decoration:none;
+	color:black;
+	display:block;
+	padding:5px;
+	width:100%;
+	height:100%;
+}
+
+
+/*above menu buttons */
+.logo{
+	width:180px;
+	display: inline;
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+main{
+	width:100%;
+	float:left;
+	display:inline;
+	color:black;
+	background-color:#ffffff;
+}
+main h3{
+	font-size:16px;
+	margin-left:30px;
+}
+/* Products on the page */
+#prod_con{
+	width:100%;
+	margin-left:2px;
+	margin-right:2px;
+	float:left;
+	display:inline;
+}
+/* banner on the home page */
+.bannertxt{
+	min-height:251px;
+	color:#61C3A2;
+	background-color:#f2f2f2;
+	border:1px solid #999999;
+	width:100%;
+	text-align:center;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.bannertxt h2{
+	color:#ff5600;
+	padding:10px;
+	padding-bottom:5px;
+}
+.bannertxt h3{
+	color:#005a3c;
+	padding:10px;
+	padding-bottom:5px;
+}
+.bannertxt h4{
+	color:black;
+	padding:10px;
+	padding-bottom:5px;
+}
+.bannertxt p{
+	color:black;
+	padding:10px;
+	padding-top:5px;
+}
+.bannername{
+	min-height:151px;
+	color:#61C3A2;
+	background-color:#f2f2f2;
+	border:1px solid #999999;
+	width:100%;
+	text-align:center;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.bannername h2{
+	color:#ff5600;
+	padding:10px;
+	font-size: 28px;
+	padding-bottom:5px;
+}
+.bannername h3{
+	color:#005a3c;
+	padding:10px;
+	padding-bottom:5px;
+}
+.bannername h4{
+	color:black;
+
+	padding:10px;
+	padding-bottom:5px;
+}
+
+/* The dots/bullets/indicators */
+.dotsslide{
+	text-align: center;
+	margin-top: 5px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 10px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/* Div to give border to an image */
+#imgborder{
+	border:1px solid #999999;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	width: -webkit-fill-available;
+}
+.product_main{
+	width:23%;
+	margin:10px;
+	float:left;
+	display:inline;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.prod_main{
+	width:870px;
+	margin:15px;
+	float:left;
+	display:inline;
+	background-color: #ffffff;
+}
+.prod_pic{
+	float: left;
+	display: inline;
+}
+.main_pic{
+	width:100%;
+	border:1px solid transparent;
+}
+.product_info{
+	width:95%;
+	border:1px solid transparent;
+	display: inline;
+	margin: 5px;
+	float: left;
+}
+.product_info p{
+margin:5px;
+}
+.prod_info{
+	display: inline;
+	margin: 5px;
+	margin-left:25px;
+}
+.prod_info p{
+margin:5px;
+}
+.prod_net{
+	background: white;
+    width: 600px;
+    display: inline;
+    float: left;
+}
+
+.prod_net p{
+margin:5px;
+}
+.prod_name{
+	font-weight:bold;
+	color:#4c4c4c;
+	font-size:18px;
+	text-align:center;
+}
+.prod_price{
+	font-weight:bold;
+	font-size:15px;
+	color:#595959;
+	text-align:center;
+}
+.prod_price_mb{
+	font-weight:bold;
+	font-size:14px;
+	color:#595959;
+	text-align:left;
+}
+.prod_price_mb .offer{
+	font-weight:bold;
+	padding-left: 4px; 
+	font-size:16px;
+	color:#cf537c;
+}
+
+.p_image{
+	width:214px;
+	margin-top: 60px;
+}
+.prod_price .offer{
+	font-weight:bold;
+	font-size:20px;
+	color:#cf537c;
+}
+.prod_price .old{
+	font-weight:bold;
+	font-size:20px;
+	color:black;
+}
+.p_network{
+	padding: 2px 10px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: inline;
+    margin-left: 10px;
+    font-size: 16px;
+    /* margin-right: 10px; */
+    cursor: pointer;
+
+}
+.network_line{
+	padding-bottom: 15px;
+}
+/* Hide the divs */
+#calvin1n_2, #calvin1n_3,
+#calvin2n_1, #calvin2n_3,
+#calvin3n_1, #calvin3n_3,
+#calvin4n_1, #calvin4n_3
+{
+	display: none;
+}
+.info_topic{
+	color:#000000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.info_total{
+	padding-left: 10px;
+}
+
+.in_stock{
+	color:#696969;
+	float: left;
+	display: inline;
+}
+/* Feedback form on contact page */
+.feedback{
+	margin:20px;
+}
+.f_heading{
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	color:black;
+	background-color:#ffffff ;
+}
+.feedback input[type="text"]{
+		width:100%;
+		border:1px solid black;
+		padding-top:5px;
+		padding-bottom:5px;
+		border-radius:5px;
+}
+.feedback textarea{
+		width:100%;
+		border:1px solid black;
+		max-height:200px;
+		max-width:250px;
+		border-radius:5px;
+}
+.feedback input[type="submit"]{
+		width:60px;
+		border:1px solid gray;
+		padding:5px;
+		border-radius:5px;
+		margin-left:90px;
+}
+.contact_form{
+	width:300px;
+	border:1px solid #999999;
+	margin:15px;
+	float:left;
+	display:inline;
+}
+.contact_main{
+	width:300px;
+	border:1px solid #999999;
+	margin:15px;
+	float:left;
+	display:inline;
+}
+
+.contact_small{
+	width:290px;
+	border:1px solid transparent;
+	margin:4px;
+}
+.contact_big{
+	width:290px;
+	border:1px solid transparent;
+	margin:4px;
+}
+.contact_small, .contact_big p{
+margin:5px;
+}
+.contact_topic{
+	color:black;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 18px;
+}
+/* Footer at the bottom */
+footer{
+	width:100%;
+	border:1px solid gray;
+	float:left;
+	display:inline;
+}
+#footer_con{
+	width:100%;
+	float:left;
+	display:inline;
+	background-color:#ffffff;
+}
+#footer_main{
+	width:300px;
+	margin:15px;
+	float:left;
+	display:inline;
+}
+.footer_info{
+	width:290px;
+	color:#595959;
+	margin:4px;
+	text-align:center;
+}
+.footer_info span{
+	color:#595959;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 900px;
+  height: 480px;
+}
+
+/* The Close Button */
+.close {
+    color: #42063f;
+    float: right;
+    margin: 5px;
+    margin-top: -20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#myBtn, #myBtn2, #myBtn3, #myBtn4,
+#myBtn5, #myBtn6, #myBtn7, #myBtn8{
+	border: 1px solid black;
+	padding: 5px;
+	background:#fff;
+	cursor: pointer;
+	outline: none;
+	border-radius: 5px;
+	float: right;
+    width: 80px;
+    margin: 5px;
+    display: inline;
+}
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/*SCENT*/
+/* By Gurjeet Singh*/
