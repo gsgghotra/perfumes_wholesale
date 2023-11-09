@@ -89,25 +89,25 @@ window.onclick = function(event) {
 }
 
 // Show and hide divs on mobiles pages for different network deals.
-function showmobile1(target){
+function showItem1(target){
 document.getElementById("calvin1n_1").style.display = 'none';
 document.getElementById("calvin1n_2").style.display = 'none';
 document.getElementById("calvin1n_3").style.display = 'none';
 document.getElementById(target).style.display = 'block';
 }
-function showmobile2(target){
+function showItem2(target){
 document.getElementById("calvin2n_1").style.display = 'none';
 document.getElementById("calvin2n_2").style.display = 'none';
 document.getElementById("calvin2n_3").style.display = 'none';
 document.getElementById(target).style.display = 'block';
 }
-function showmobile3(target){
+function showItem3(target){
 document.getElementById("calvin3n_1").style.display = 'none';
 document.getElementById("calvin3n_2").style.display = 'none';
 document.getElementById("calvin3n_3").style.display = 'none';
 document.getElementById(target).style.display = 'block';
 }
-function showmobile4(target){
+function showItem4(target){
 document.getElementById("calvin4n_1").style.display = 'none';
 document.getElementById("calvin4n_2").style.display = 'none';
 document.getElementById("calvin4n_3").style.display = 'none';
