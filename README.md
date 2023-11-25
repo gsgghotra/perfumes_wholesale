@@ -22,6 +22,15 @@ Scent is an Academic project and its objective is to display prices according to
 
 ## Screenshots
 - **Home Screen**:
+![Screenshot of Home page](assets/image/screenshots/Screenshot-homepage.png)
+- **Offer Page**:
+![Screenshot of Offers page](assets/image/screenshots/Screenshot-OffersPAge.png)
+- **Product Info**:
+![Screenshot of product page](assets/image/screenshots/Screenshot-ProductInfo.png)
+- **Contact us Page**:
+![Screenshot of Contact us page](assets/image/screenshots/Screenshot-ContactPage.png)
+
+
 
 ## Contact Information
 
